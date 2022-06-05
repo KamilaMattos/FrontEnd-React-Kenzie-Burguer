@@ -57,7 +57,7 @@ function App() {
         products={products}
         handleClick={handleClick}
       />
-      {currentSale[0] ? (
+      {currentSale.length > 0 ? (
         <Cart currentSale={currentSale} setCurrentSale={setCurrentSale} />
       ) : (
         <EmptyCart />

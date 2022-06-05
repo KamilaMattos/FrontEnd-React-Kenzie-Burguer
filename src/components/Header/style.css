@@ -24,13 +24,13 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding: 0px 10px 0px 15px;
   }
   .header .header__form input {
     border: none;
     height: 40px;
     color: #e0e0e0;
     width: 100%;
+    padding-left: .5em;
   }
 
   .header .header__form button {
@@ -44,6 +44,7 @@
     justify-content: center;
     align-items: center;
     padding: 0px 10px;
+    margin-right: .5em;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
@@ -63,7 +64,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10px 0px 15px;
   }
 }
 
@@ -101,7 +101,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10px 0px 15px;
   }
 }
 
@@ -138,7 +137,7 @@
   }
 
   .header .header__form {
-    width: 328px;
+    width: 354px;
     height: 49px;
     margin-right: 5.5em;
   }
