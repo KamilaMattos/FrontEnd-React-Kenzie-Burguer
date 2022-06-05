@@ -1,0 +1,47 @@
+@media screen and (min-width: 320px) {
+  .container__listaProdutos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 2em;
+    overflow-x: scroll;
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container__listaProdutos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container__listaProdutos {
+    display: flex;
+    float: left;
+    width: 37em;
+    margin-left: 2em;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container__listaProdutos {
+    width: 59em;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container__listaProdutos {
+    width: 82em;
+    margin-left: 5em;
+  }
+}

@@ -1,0 +1,130 @@
+@media screen and (min-width: 320px) {
+  .cart__footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 44px;
+    width: 267px;
+    margin-left: 0.5em;
+    align-items: center;
+  }
+
+  .cart__footer p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+  }
+
+  .cart__footer span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #828282;
+  }
+
+  .cart__footerBtn {
+    height: 50px;
+    width: 273px;
+    background: #e0e0e0;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    color: #828282;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 3em;
+    margin-left: 0.5em;
+  }
+
+  .cart__footerBtn:hover {
+    background: #828282;
+    border: 2px solid #828282;
+    border-radius: 8px;
+    color: #e0e0e0;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .cart .cart__footer {
+    width: 284px;
+  }
+
+  .cart__footerBtn {
+    width: 293px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cart .cart__footer {
+    width: 317px;
+    margin-left: 0.5em;
+  }
+
+  .cart__footerBtn {
+    width: 318px;
+    height: 51px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cart .cart__footer {
+    width: 300px;
+    margin-left: 0.5em;
+  }
+
+  .cart .cart__footer p {
+    font-size: 16px;
+  }
+
+  .cart .cart__footer span {
+    font-size: 16px;
+    font-family: "Inter";
+  }
+
+  .cart__footerBtn {
+    width: 307px;
+    margin-left: 0.5em;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cart .cart__footer {
+    width: 331px;
+    margin-left: 1em;
+  }
+
+  .cart__footerBtn {
+    width: 342px;
+    margin-left: 0.5em;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .cart .cart__footer {
+    width: 382px;
+    margin-left: 1em;
+  }
+
+  .cart .cart__footer p {
+    font-size: 20px;
+  }
+
+  .cart .cart__footer span {
+    font-size: 20px;
+  }
+
+  .cart__footerBtn {
+    width: 395px;
+    height: 65px;
+    font-size: 17px;
+  }
+}
