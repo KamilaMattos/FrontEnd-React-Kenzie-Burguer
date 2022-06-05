@@ -13,7 +13,13 @@ function CartTotal({ currentSale, setCurrentSale }) {
     <>
       <div className='cart__footer'>
         <p>Total</p>
-        <span>R$ {totalPrice.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}</span>
+        <span>
+          R${" "}
+          {totalPrice.toLocaleString("pt-BR", {
+            style: "currency",
+            currency: "BRL",
+          })}
+        </span>
       </div>
       <button className='cart__footerBtn' onClick={() => removeAll()}>
         Remover todos

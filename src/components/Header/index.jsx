@@ -1,9 +1,7 @@
 import logo from "../../img/logo.svg"
 import "../Header/style.css"
 
-function Header({showProducts, filteredProducts}) {
-  
-
+function Header({ showProducts }) {
   return (
     <header className='header'>
       <img src={logo} alt='Logo' />
@@ -14,7 +12,7 @@ function Header({showProducts, filteredProducts}) {
           type='text'
           placeholder='Digitar pesquisa'
         />
-        <button onClick={filteredProducts} className='header__btn' type='submit'>
+        <button onClick={showProducts} className='header__btn' type='submit'>
           Pesquisar
         </button>
       </form>
